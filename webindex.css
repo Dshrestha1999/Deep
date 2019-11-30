@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|DM+Serif+Text|Dancing+Script|Dr+Sugiyama|Fredericka+the+Great|Lexend+Exa|Lexend+Tera|Lobster|Monoton|Pacifico|Righteous&display=swap');
+/*************************
+  Body back ground colour
+************************************/
+body{ 
+    background-color: #1a1a1d;
+    margin: 0;
+} 
+/*************************
+  navigation bar
+************************************/
+nav { 
+        position: -webkit-sticky;
+        position:sticky;
+        top: 0;
+    }
+
+    ul {
+      background-color: #000;
+      width: 100%;
+      height: 50px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn, .ab:hover , .abbb:hover , #abb:hover { background: #950750; height: 22px;}
+    
+    
+    li.aa {
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1; }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+     .ab {
+            background-color: #36131b;
+            height: 22px;}
+          #abb {
+            background-color: #627aad;
+            height: 22px;}
+    
+          .abbb {
+            background-color: #d86b93;
+            height: 22px;
+          }
+      /*************************
+             header components
+        ************************************/
+
+     header{
+      width: 100%;
+      height: 500px;
+      background-color: #6f2232;
+     }
+      header .pahilo>img{
+        
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        height: 510px;
+        right:0;
+    
+      }
+      header .logo>img{
+        
+        position: absolute;
+        top: 3%;
+        left: 0%;
+        height: 400px;
+        right:0;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+      }
+    
+     
+      .dosro{
+        
+        text-align: left;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+      .dosro>h1{
+        font-family: 'Monoton', cursive;
+        background: linear-gradient(to right, #000 20%, #da5555 30%, #da4444 70%,  #000 80%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        background-size: 200% auto;
+        animation: textShine 10s ease-in-out infinite; 
+      }
+        .dosro>h2{
+          font-family: 'Pasifico', cursive;
+          color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+        }
+
+      .second{
+        width: 100%;
+        height: 50px;
+        background-color: #4e4e50;
+
+        }
+        .second>h1{
+          font-family: 'lobster', cursive;
+          color: rgba(0,0,0,.7); 
+          text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+          position: absolute;
+          left: 40%;
+          top: 56%;
+        }
+
+        main>#first
+                {
+            width: 100%;
+            height: 960px;
+            background: #1a1a1d;
+            
+            
+        }
+        .flex {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 80px;
+        }
+        
+        
+        .box {
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 50px;
+        }
+        
+        .box img {
+          margin-top: 10px;
+          margin-left:60px;
+          vertical-align: middle;
+        }
+        main>.fourth{
+          width: 100%;
+          height: 40px;
+          background-color: #6f2232;
+        }
+        .fourth>h1{
+          font-family: 'lobster', cursive;
+          text-align: center;
+          color: rgba(0,0,0,.7); 
+          text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+        }
+
+        main>.third{
+            width: 100%;
+            height: 1340px;
+            background: #4e4e50;
+                }
+                .flex {
+                  display: flex;
+                  flex-wrap: wrap;
+                  padding: 0 80px;
+                }
+                
+                
+                .box {
+                  flex: 25%;
+                  max-width: 25%;
+                  padding: 0 50px;
+                }
+                
+                .box img {
+                  margin-top: 10px;
+                  margin-left:40px;
+                  vertical-align: middle;
+                }
+
+                main>.third2{
+                  width: 100%;
+                  height: 980px;
+                  background: #2f2f31;
+                      }
+                      .flex {
+                        display: flex;
+                        flex-wrap: wrap;
+                        padding: 0 80px;
+                      }
+                      
+                      
+                      .box {
+                        flex: 25%;
+                        max-width: 25%;
+                        padding: 0 50px;
+                      }
+                      
+                      .box img {
+                        margin-top: 10px;
+                        margin-left:40px;
+                        vertical-align: middle;
+                      }
+      
+                main>.sixth{
+                  width: 100%;
+                  height: 40px;
+                  background-color: #6f2232;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center
+                }
+                main>.sixth>h1{
+                  margin: 0;
+                  font-family: 'lobster', cursive;
+                  color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
+                
+
+                main>.sixth2{
+                  width: 100%;
+                  height: 40px;
+                  background-color: #6f2232;
+                 
+                }
+                
+
+        main>#contact{
+          width: 100%;
+          height: 90px;
+          background-color: #1a1a1d;
+          display: flex;
+          justify-content: center;
+        }
+        
+       #contact> .icon {
+        color: aliceblue;
+        font-size: 2em;
+        
+        
+      }
+      
+      .icon {
+        display: flex;
+        align-items: center;
+        
+      }
+        
+        
+        .icon>img {
+          margin: 10px;
+          padding: 50px;
+          transition: margin 300ms;
+        }
+          
+       
+        footer {
+          width: 100%;
+          height: 50px;
+          background-color: #6f2232;
+          display: flex;
+          align-items: center;
+          justify-content: center
+         
+        }
+        footer>h2{
+          margin: 0;
+          color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
+            
+      
+@keyframes textShine {
+to {
+    background-position: 200%;
+}
+  }
